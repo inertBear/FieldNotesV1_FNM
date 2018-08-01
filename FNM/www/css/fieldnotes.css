@@ -1,0 +1,302 @@
+ul
+{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+
+li 
+ {
+     float: left;
+     display: block;
+}
+
+li img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+body 
+{
+    display: block;
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    background-color: white;
+    background-color: #87aade;
+}
+
+#settingsBar
+{
+    padding: 30px 3px 30px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #87aade;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+    #settingsBar .left
+    {   
+        float: left;
+    }
+
+    #settingsBar .topright
+    {
+        position: absolute;
+        top: 20px;
+        right: 2px;
+    }
+
+h2
+{
+    clear: both;
+    text-align: center;
+    border-bottom: 5px solid black; 
+    font-size: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+h2 img
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#loginSection 
+{
+    padding: 20px 0 20px 0;
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    border-radius:5px;
+}
+
+    #loginSection .left 
+    {
+        float: left;
+    }
+    #loginSection .right
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #loginSection input
+    {
+        width: 80%;
+        padding:4px;
+        border-radius:5px;
+    	border:1px #ccc solid;
+    	margin-bottom: 5px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    #loginSection label
+    {
+    	width: 80%;
+    	padding-left: 10px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    #loginSection #login_form .button
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #loginSection form table tr td
+    {
+        padding: 5px 0 5px 0;
+    }
+
+#login_message
+{
+    color: red;
+	font-weight: bold;
+    font-size: 10px;
+}
+
+#welcomeUser
+{
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+div.user
+{
+    outline: none;
+}
+
+input.button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content
+{
+	display: block;
+	margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 5px solid black;
+    border-radius:5px;
+}
+    .content .dynamicButton {
+        display: block;
+        text-align: center;
+        font-size: large;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 5px solid black;
+        border-radius:5px;
+        height: 45px;
+        width: 80%;
+        white-space: normal;
+
+    }
+
+.dataSet
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove black;
+    border-radius:5px;
+}
+
+    .dataset table tr td #des
+    {
+        vertical-align: middle;
+    }
+    
+    .dataSet legend
+    {
+    font-weight: 900;
+    }
+
+    .dataSet label
+    {
+        width: 120;
+    }
+
+    .dataSet input
+    {
+        width: 98%;
+        padding:4px;
+        border-radius:5px;
+    	border:1px #ccc solid;
+    	margin-bottom: 5px;
+    }
+
+    .dataSet textarea
+    {
+        height: 120;
+        width: 98%;
+        padding:4px;
+        border-radius:5px;
+        border:1px #ccc solid;
+    	margin-bottom: 5px;
+    }
+
+    .dataSet select
+    {
+        width: 98%;
+        padding:4px;
+        border-radius:5px;
+        border:1px #ccc solid;
+    	margin-bottom: 5px;
+    }
+
+#data_message
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-weight: bold;
+}
+
+#data_error_message
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-weight: bold;
+}
+
+#search_message
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-weight: bold;
+}
+
+.content #buttonTable
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #buttonTable .imagelessButton
+    { 
+        display: block;
+        width: 115px;
+        height: 25px;
+        background: blue;
+        padding: 5px;
+        text-align: center;
+       border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+footer 
+{
+    border-top: 5px solid black;
+    border-radius:5px;
+    margin-top: 30px;
+    color: white;
+    background: black;
+    text-align: center;
+}

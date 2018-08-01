@@ -1,0 +1,69 @@
+body 
+{
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    background-color: white;
+    background-color: #87aade;
+}
+
+h1
+{
+    background-color: black;
+    font-size: 0.5em;
+    color: white;
+    line-height: 2em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h2 img
+{
+    border: 5px inset ;
+    display: block;
+    margin: 0 auto;
+}
+
+#loginSection 
+{
+    padding: 20px 0 20px 0;
+    display: block;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-left: 10px solid blue;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+    #loginSection .left 
+    {
+        float: left;
+    }
+    #loginSection .right
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #loginSection form table tr td
+    {
+        padding: 5px 0 5px 0;
+    }
+
+#messageSection 
+{
+    color: red;
+
+}
+
+footer 
+{
+    color: black;
+    background: white;
+    text-align: center;
+}
+    
+

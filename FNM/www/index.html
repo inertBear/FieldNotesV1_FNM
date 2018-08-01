@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	    <link rel="stylesheet" type="text/css" href="css/fieldnotes.css">
+	    <title>Login</title>
+	</head>
+
+	<div id="settingsBar">	
+		<ul>
+			<!--<li><span class="left">FieldNotes v5.0.1</span></li>-->
+			<li><span class="topright"></span></li>
+		</ul>
+	</div>
+
+	<body>
+		<h2><img src="img/logo.png"></h2>
+		<div class="content">
+			<div id="loginSection">
+				<form id="login_form" data-ajax="false" method="post">
+					<table>
+						<tr><td><label class="left">Username: </label></td><td><input class="right" type="text" name="username" id="username"></td></tr>
+						<tr><td><label class="left">Password: </label></td><td><input class="right" type="password" name="password" id="password" ></td></tr>
+						<tr><td></td><td><span id="login_message"></span></td></tr>
+					</table>
+
+					<table id="buttonTable" align="center">
+						<tr><td><input class="button" type="image" src="img/submitbutton.png" id="login_btn"></td></tr>
+					</table>
+
+					</table>
+				</form>
+			</div>
+		</div>
+
+		<script src="cordova.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-2.1.3.js"></script>
+    	<script type="text/javascript" src="js/index.js"></script>
+    	<script type="text/javascript" src="js/lib/jquery.mobile-1.4.5.min"></script>
+	</body>
+
+	<footer>
+		<p class ="content">Please Note: Using FieldNotes requires an account. For inquries and new accounts, please contact:<br>
+			Kenneth Cantwell at <a href="mailto:kcantwell@FieldNotesfn.com?Subject=New%20Account%20Inquiry" target="_top">kcantwell@fieldnotesfn.com</a></p>
+		<p>&copy; 2017 </p>
+	</footer>
+
+</html>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<plugin name="cordova-plugin-whitelist" spec="1.1.0" />
+    <name>Field Notes</name>
+    <description>
+        Field Notes Prototype
+    </description>
+    <author email="keithh090@gmail.com" href="">
+        Keith Hunter 2017
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-intent href="tel:*" />
+	<allow-intent href="sms:*" />
+	<allow-intent href="mailto:*" />
+	<allow-intent href="geo:*" />
+   
+</widget>

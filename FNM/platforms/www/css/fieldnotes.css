@@ -1,0 +1,11 @@
+header {text-align: center;}
+
+main {color: black; background: white; text-align: center;}
+
+table {margin-bottom: 10px;}
+	table input {text-align: center;}
+
+footer {color: black; background: white; text-align: center;}
+
+#login
+	#login input {alignment-baseline: left;}
